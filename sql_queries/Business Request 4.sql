@@ -1,5 +1,7 @@
--- Generate a report that identifies the month with the highest revenue for each city. 
--- For each city, display the month_name, the revenue amount for that month, and the percentage contribution of that month's revenue to the city's total revenue.
+-- Generate a report that calculates the total new passengers for each city and ranks them based on this value.
+-- Identify the top 3 cities with the highest number of new passengers as well as the bottom 3 cities with the lowest number of new passengers,
+-- categorising them as "Top 3" or "Bottom 3" accordingly.
+
 
 WITH TotalPassengersSummary AS (
     SELECT 
