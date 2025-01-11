@@ -1,3 +1,11 @@
+-- Generate a report that calculates two metrics:
+-- 1. Monthly Repeat Passenger Rate: Calculate the repeat passenger rate for each city and month by comparing the
+-- number of repeat passengers to the total passengers.
+-- 2. City-wide Repeat Passenger Rate: Calculate the overall repeat passenger rate for each city, considering all passengers across months.
+
+-- These metrics will provide insights into monthly repeat trends as well as the overall repeat behaviour for each city.
+
+
 WITH passenger_counts AS (
     SELECT 
         c.city_name,
