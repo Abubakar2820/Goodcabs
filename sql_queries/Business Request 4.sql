@@ -1,3 +1,6 @@
+-- Generate a report that identifies the month with the highest revenue for each city. 
+-- For each city, display the month_name, the revenue amount for that month, and the percentage contribution of that month's revenue to the city's total revenue.
+
 WITH TotalPassengersSummary AS (
     SELECT 
         c.city_name,
