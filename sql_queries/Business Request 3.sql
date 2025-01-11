@@ -1,3 +1,9 @@
+-- Generate a report that shows the percentage distribution of repeat passengers by the number of trips they have taken in each city.
+-- Calculate the percentage of repeat passengers who took 2 trips, 3 trips, and so on, up to 10 trips.
+-- Each column should represent a trip count category, displaying the percentage of repeat passengers who fall into that category out of the total repeat passengers for that city.
+-- This report will help identify cities with high repeat trip frequency, which can indicate strong customer loyalty or frequent usage patterns.
+
+
 SELECT 
     c.city_name,
     ROUND(
